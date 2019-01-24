@@ -20,7 +20,7 @@ def take_a_number(line, name)
 end
 
 def now_serving(line)
-  if (line.lenght == 0)
+  if (line.length == 0)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{line.first}."
