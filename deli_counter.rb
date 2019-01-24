@@ -11,6 +11,4 @@ def line(line)
 
     puts str
   end
-
-
 end
