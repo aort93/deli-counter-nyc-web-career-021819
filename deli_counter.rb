@@ -12,3 +12,9 @@ def line(line)
     puts str
   end
 end
+
+def take_a_number(line, name)
+  line.push(name)
+
+  puts "Welcome, #{name}. You are number #{deli.length} in line."
+end
